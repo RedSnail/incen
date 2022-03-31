@@ -1,0 +1,6 @@
+build/
+venv/
+incen.egg-info/
+*.session
+*.pyc
+.idea/
