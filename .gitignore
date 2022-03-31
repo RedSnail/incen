@@ -3,4 +3,6 @@ venv/
 incen.egg-info/
 *.session
 *.pyc
+.pypirc
 .idea/
+dist/

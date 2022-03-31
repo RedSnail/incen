@@ -25,7 +25,7 @@ setup(
     author_email="oleg.demianchenko@gmail.com",
     license="MIT",
     platforms="OS Independent",
-    url="",
+    url="https://github.com/RedSnail/incen",
     scripts=scripts,
     entry_points={
           'console_scripts': ['incen=InnerCensor.bin.run_censor:main']
