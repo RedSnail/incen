@@ -4,7 +4,7 @@ import datetime
 # api_id = int(os.getenv("API_ID"))
 # api_hash = os.getenv("API_HASH")
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
 api_id = 16133923
 api_hash = "9c758d86808f7798fa9b161975be492b"

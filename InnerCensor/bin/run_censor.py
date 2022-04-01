@@ -57,7 +57,8 @@ def parse(argv):
     parser_publist_auto.set_defaults(func=leave_by_list)
 
     parser_del_from_to = subparsers.add_parser("delfromto", help="Delete all messages in personal chat or groups "
-                                                                 "within a chosen period")
+                                                                 "within a chosen period. Date in format YYYY-MM-DD. "
+                                                                 "Period counts inclusively.")
     parser_del_from_to.set_defaults(func=delete_from_to)
     parser_del_from_to.add_argument("from_when", type=datetime.datetime.fromisoformat)
     parser_del_from_to.add_argument("to", type=datetime.datetime.fromisoformat,
